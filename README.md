@@ -8,3 +8,7 @@
 * Display User followings(Friends) list with friend details (Friend user profile picture, Friend user following count, Friend user followers count).
 
 ## Usage Steps
+<p align="row">
+<img src= "/Login.png" width="400" >
+<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
+</p>
