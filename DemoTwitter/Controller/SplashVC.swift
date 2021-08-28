@@ -1,0 +1,25 @@
+//
+//  SplashVC.swift
+//  DemoTwitter
+//
+//  Created by iMac on 27/08/21.
+//
+
+import UIKit
+
+class SplashVC: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        delay(interval: 0.5) {
+            if UserDefaults.isLogin {
+                let vc = StoryBoard("UserProfileVC") as! UserProfileVC
+                SlideNavigationController.sharedInstance()?.popAllAndSwitch(to: vc, withCompletion: nil)
+            } else {
+                let vc = StoryBoard("HomeVC") as! HomeVC
+                SlideNavigationController.sharedInstance()?.popAllAndSwitch(to: vc, withCompletion: nil)
+            }
+        }
+    }
+
+}

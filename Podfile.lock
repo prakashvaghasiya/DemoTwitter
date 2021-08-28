@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SwiftyJSON (4.0.0)
+  - Toast-Swift (5.0.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Alamofire-SwiftyJSON
+  - SDWebImage
+  - Toast-Swift
+  - TwitterKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - SDWebImage
+    - SwiftyJSON
+    - Toast-Swift
+    - TwitterCore
+    - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: a2ebb7f6e9f25aa22550e0a275aa8ab93097ec42
+
+COCOAPODS: 1.10.1
