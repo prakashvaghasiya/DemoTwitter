@@ -9,8 +9,10 @@ import UIKit
 
 class SplashVC: UIViewController {
 
+    //MARK:- Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupNavigationBar()
         delay(interval: 0.5) {
             if UserDefaults.isLogin {
                 let vc = StoryBoard("UserProfileVC") as! UserProfileVC
@@ -22,4 +24,8 @@ class SplashVC: UIViewController {
         }
     }
 
+    //MARK:- Methods
+    private func setupNavigationBar() {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
 }

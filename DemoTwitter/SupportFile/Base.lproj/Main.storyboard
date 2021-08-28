@@ -15,8 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="vQ9-8Q-6iN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tweetMain" translatesAutoresizingMaskIntoConstraints="NO" id="rBr-2p-rQi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="O5S-9U-Emt"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="rBr-2p-rQi" firstAttribute="leading" secondItem="O5S-9U-Emt" secondAttribute="leading" id="0ee-pF-iKZ"/>
+                            <constraint firstItem="rBr-2p-rQi" firstAttribute="top" secondItem="vQ9-8Q-6iN" secondAttribute="top" id="6aM-5p-S6t"/>
+                            <constraint firstAttribute="bottom" secondItem="rBr-2p-rQi" secondAttribute="bottom" id="8Xy-hw-uxb"/>
+                            <constraint firstItem="O5S-9U-Emt" firstAttribute="trailing" secondItem="rBr-2p-rQi" secondAttribute="trailing" id="fKs-81-mZx"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CQ9-Z7-fPH"/>
                 </viewController>
@@ -344,6 +355,9 @@
         <image name="ic_Back" width="16.666666030883789" height="16.666666030883789"/>
         <image name="ic_tweet" width="392" height="331"/>
         <image name="ic_tweetMain" width="1920" height="1200"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
