@@ -10,5 +10,7 @@
 ## Usage Steps
 <p align="row">
 <img src= "/Login.png" width="400" >
-<img src= "https://media.giphy.com/media/HYOlBKJBqgAfe/giphy.gif" width="400" >
+<img src= "/UserProfile.png" width="400" >
+<img src= "/Followers.png" width="400" >
+<img src= "/Following.png" width="400" >
 </p>
